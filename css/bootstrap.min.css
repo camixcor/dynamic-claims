@@ -604,6 +604,25 @@ progress {
 	height: auto
 }
 
+.service-img{
+	width: 100%; /* Asegura que la imagen ocupe el ancho completo del contenedor */
+    height: 200px; /* Ajusta esta altura según tu preferencia */
+    object-fit: cover; /* Mantiene el contenido visible dentro del recorte */
+    border-radius: 10px
+}
+
+.no-recovery-fee {
+    position: relative; /* Para que siempre esté en el mismo lugar */
+    background-color: #ff0000; /* Fondo rojo */
+    color: #ffffff; /* Texto blanco */
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center; /* Centrar texto */
+}
+
+
+
 .img-thumbnail {
 	padding: .25rem;
 	background-color: #D02C5C;
@@ -8011,8 +8030,8 @@ fieldset:disabled .btn {
 }
 
 .bg-dark {
-	background-color: #6B2587 !important
-}
+	background-color: #f4ecf7 !important
+	}
 
 .bg-body {
 	background-color: #D02C5C !important

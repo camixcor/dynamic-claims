@@ -270,7 +270,7 @@
 
 .property-item {
     box-shadow: 0 0 30px rgba(0, 0, 0, .08);
-    background-color: #FFFFFF;
+    background-color: #f4ecf7;
 }
 
 .property-item img {
@@ -413,7 +413,7 @@
 }
 
 .footer .form-control {
-    border-color: rgba(255,255,255,0.5);
+    border-color: #6B2587 !important;;
 }
 
 .footer .copyright {
@@ -439,7 +439,7 @@
 }
 
 .section-bg-light{
-    background-color: #ebdef0 !important;
+    background-color: #f4ecf7 !important;
 }
 
 .rounded-20 {
