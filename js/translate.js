@@ -20,7 +20,7 @@ const translations = {
         "waterDescription": "Our team handles water damage claims to restore your property.",
         "vandalismClaims": "Vandalism Claims",
         "vandalismDescription": "We assist with vandalism claims to help you recover from property damage.",
-        "exploreMoreServices": "Explore More Services",
+        "exploreMoreServices": "More Information",
         "aboutTitle": "#1 Trusted Partner for Insurance Claims",
         "aboutDescription": "Dynamic Claims Advisors Inc. is dedicated to providing expert advice and personalized support in navigating insurance claims. We help individuals and businesses achieve fair outcomes efficiently.",
         "aboutList1": "Expert Guidance for All Claim Types",
@@ -61,6 +61,13 @@ const translations = {
         "footerNewsletterDescription": "Stay updated with our latest news and offers.",
         "footerNewsletterPlaceholder": "Your email",
         "footerNewsletterButton": "Sign Up",
+        "servicesPageTitle": "Our Services",
+        "floodLongDescription": "Flood damage can be devastating, but our team is here to help you recover quickly and efficiently. We handle all aspects of flood damage claims, from initial assessment to final settlement. Our experts work tirelessly to ensure you receive the compensation you deserve.",
+        "fireLongDescription": "Fire damage can leave your property in ruins, but our team is here to guide you through the recovery process. We assist with fire damage claims, helping you restore your property and get back on your feet. Our goal is to make the process as smooth and stress-free as possible.",
+        "moldLongDescription": "Mold can pose serious health risks and damage your property. Our team specializes in mold damage claims, ensuring a safe and healthy environment for you and your family. We handle all the necessary steps to resolve mold issues efficiently.",
+        "hurricaneLongDescription": "Hurricanes can cause extensive damage to your property. Our team is experienced in handling hurricane damage claims, helping you recover and rebuild. We work directly with your insurance company to maximize your claim and ensure a fast resolution.",
+        "waterLongDescription": "Water damage can lead to costly repairs if not addressed promptly. Our team handles water damage claims, ensuring your property is restored to its original condition. We provide expert guidance and support throughout the entire process.",
+        "vandalismLongDescription": "Vandalism can be both emotionally and financially draining. Our team assists with vandalism claims, helping you recover from property damage and restore your peace of mind. We are committed to providing compassionate and professional service."
     },
     "es": {
         "home": "Inicio",
@@ -83,7 +90,7 @@ const translations = {
         "waterDescription": "Nuestro equipo maneja reclamaciones por daños por agua para restaurar tu propiedad.",
         "vandalismClaims": "Reclamaciones por Vandalismo",
         "vandalismDescription": "Ayudamos con reclamaciones por vandalismo para recuperarte de daños a la propiedad.",
-        "exploreMoreServices": "Explora Más Servicios",
+        "exploreMoreServices": "Más Información",
         "aboutTitle": "#1 Socio de Confianza para Reclamaciones de Seguros",
         "aboutDescription": "Dynamic Claims Advisors Inc. se dedica a brindar asesoramiento experto y apoyo personalizado para navegar por las reclamaciones de seguros. Ayudamos a individuos y empresas a lograr resultados justos de manera eficiente.",
         "aboutList1": "Orientación Experta para Todo Tipo de Reclamaciones",
@@ -124,9 +131,15 @@ const translations = {
         "footerNewsletterDescription": "Mantente actualizado con nuestras últimas noticias y ofertas.",
         "footerNewsletterPlaceholder": "Tu correo electrónico",
         "footerNewsletterButton": "Suscribirse",
+        "servicesPageTitle": "Nuestros Servicios",
+        "floodLongDescription": "Los daños por inundación pueden ser devastadores, pero nuestro equipo está aquí para ayudarte a recuperarte rápida y eficientemente. Nos encargamos de todos los aspectos de las reclamaciones por daños por inundación, desde la evaluación inicial hasta el acuerdo final. Nuestros expertos trabajan incansablemente para garantizar que recibas la compensación que mereces.",
+        "fireLongDescription": "Los daños por incendio pueden dejar tu propiedad en ruinas, pero nuestro equipo está aquí para guiarte en el proceso de recuperación. Ayudamos con las reclamaciones por daños por incendio, ayudándote a restaurar tu propiedad y volver a la normalidad. Nuestro objetivo es hacer que el proceso sea lo más fluido y sin estrés posible.",
+        "moldLongDescription": "El moho puede representar serios riesgos para la salud y dañar tu propiedad. Nuestro equipo se especializa en reclamaciones por daños de moho, asegurando un ambiente seguro y saludable para ti y tu familia. Nos encargamos de todos los pasos necesarios para resolver los problemas de moho de manera eficiente.",
+        "hurricaneLongDescription": "Los huracanes pueden causar daños extensos a tu propiedad. Nuestro equipo tiene experiencia en el manejo de reclamaciones por daños por huracanes, ayudándote a recuperarte y reconstruir. Trabajamos directamente con tu compañía de seguros para maximizar tu reclamación y garantizar una resolución rápida.",
+        "waterLongDescription": "Los daños por agua pueden llevar a reparaciones costosas si no se abordan a tiempo. Nuestro equipo maneja reclamaciones por daños por agua, asegurando que tu propiedad sea restaurada a su estado original. Brindamos orientación experta y apoyo durante todo el proceso.",
+        "vandalismLongDescription": "El vandalismo puede ser emocional y financieramente agotador. Nuestro equipo ayuda con las reclamaciones por vandalismo, ayudándote a recuperarte de los daños a la propiedad y restaurar tu tranquilidad. Estamos comprometidos a brindar un servicio compasivo y profesional."
     }
 };
-
 
 
 
