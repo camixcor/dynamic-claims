@@ -74,63 +74,61 @@
 
 <body>
     <div class="container-xxl bg-white p-0">
-        <!-- Navbar Start -->
-        <div class="bg-transparent sticky top-0 z-50">
-            <nav class="bg-white shadow-md">
-                <div class="container mx-auto flex items-center justify-between px-4 py-2">
-                    <!-- Logo -->
-                    <a href="index.html" class="flex items-center">
-                        <img src="img/dynamic-claims-logo.png" alt="Dynamic Claims Advisors Logo" class="w-32 h-auto"
-                            loading="lazy" width="128" height="auto">
-                    </a>
+<!-- Navbar Start -->
+<div class="bg-transparent sticky top-0 z-50">
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto flex items-center justify-between px-4 py-2">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center">
+                <img src="img/dynamic-claims-logo.png" alt="Dynamic Claims Advisors Logo" class="w-32 h-auto"
+                    loading="lazy" width="128" height="auto">
+            </a>
 
-                    <!-- Link de Español -->
-                    <div>
-                        <a href="#" title="DynamicClaims"
-                            class="text-pink-900 font-semibold hover:text-pink-700 mx-2">Home</a>
-                        <span class="text-pink-900">|</span> <!-- Use <span> instead of <a> for the separator -->
-                        <a href="#" title="DynamicClaims"
-                            class="text-pink-900 font-semibold hover:text-pink-700 mx-2">Español</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!-- Navbar End -->
-
-        <!-- Hero Section -->
-        <section class="hero min-h-screen flex items-center justify-center relative">
-            <img src="img/banner2.jpg" alt="Dynamic Claims Advisors" class="absolute inset-0 w-full h-full object-cover"
-                loading="lazy">
-            <div class="hero-overlay absolute inset-0"></div>
-            <div class="container mx-auto text-center relative z-10 px-4">
-                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in">
-                    Get the Fair Compensation You Deserve
-                </h1>
-                <div
-                    class="bg-white bg-opacity-20 backdrop-blur-sm rounded-lg p-4 inline-block animate-fade-in-up mb-6">
-                    <p class="text-2xl md:text-2xl font-semibold text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
-                        No Recovery, No Fee
-                    </p>
-                </div>
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 animate-fade-in">
-                    We Fight for You and Your Rights as a Policyholder
-                </h2>
-                <p class="text-lg md:text-xl lg:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto animate-fade-in-up">
-                    Professional public adjusters helping property owners maximize their insurance claims.
-                </p>
-                <a href="#" title="DynamicClaims"
-                    class="bg-custom-purple text-white px-6 py-6 rounded-lg font-semibold hover:bg-purple-800 transition duration-300 btn-custom md:text-xl">
-                    Free Inspection
-                </a>
+            <!-- Link de Español -->
+            <div>
+                <a href="#" title="DynamicClaims" data-translate="home"
+                    class="text-pink-900 font-semibold hover:text-pink-700 mx-2">Home</a>
+                <span class="text-pink-900">|</span>
+                <button id="language-toggle">En-Es</button>
             </div>
-        </section>
-        <!-- Hero End -->
+        </div>
+    </nav>
+</div>
+<!-- Navbar End -->
+
+<!-- Hero Section -->
+<section class="hero min-h-screen flex items-center justify-center relative">
+    <img src="img/banner2.jpg" alt="Dynamic Claims Advisors" class="absolute inset-0 w-full h-full object-cover"
+        loading="lazy">
+    <div class="hero-overlay absolute inset-0"></div>
+    <div class="container mx-auto text-center relative z-10 px-4">
+        <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in" data-translate="heroTitle">
+            Get the Fair Compensation You Deserve
+        </h1>
+        <div class="bg-white bg-opacity-50 backdrop-blur-sm rounded-lg p-4 inline-block animate-fade-in-up mb-6">
+            <p class="text-2xl md:text-2xl font-semibold text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]" data-translate="noRecovery">
+                No Recovery, No Fee
+            </p>
+        </div>
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 animate-fade-in" data-translate="heroSubtitle">
+            We Fight for You and Your Rights as a Policyholder
+        </h2>
+        <p class="text-lg md:text-xl lg:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto animate-fade-in-up" data-translate="heroDescription">
+            Professional public adjusters helping property owners maximize their insurance claims.
+        </p>
+        <a href="#" title="DynamicClaims" data-translate="freeInspection"
+            class="bg-custom-purple text-white px-6 py-6 rounded-lg font-semibold hover:bg-purple-800 transition duration-300 btn-custom md:text-xl">
+            Free Inspection
+        </a>
+    </div>
+</section>
+<!-- Hero End -->
 
 <!-- Services List Start -->
 <div class="bg-purple-300 py-12">
     <div class="container mx-auto px-4">
         <div class="text-center mb-8">
-            <h1 class="text-3xl font-bold text-gray-800">Services Listing</h1>
+            <h1 class="text-3xl font-bold text-gray-800" data-translate="servicesTitle">Services Listing</h1>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <!-- Flood Damage -->
@@ -138,11 +136,13 @@
                 <a href="#" title="DynamicClaims" class="block relative">
                     <img src="img/flood2.jpg" alt="Flood Damage" class="w-full h-48 object-cover" loading="lazy">
                     <div class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 backdrop-blur-sm rounded">
-                        <h2 class="text-white text-2xl font-bold">Flood Damage</h2>
+                        <h2 class="text-white text-2xl font-bold" data-translate="floodDamage">Flood Damage</h2>
                     </div>
                 </a>
                 <div class="p-4">
-                    <p class="text-gray-600">We handle flood damage claims to help you recover quickly and efficiently.</p>
+                    <p class="text-gray-600" data-translate="floodDescription">
+                        We handle flood damage claims to help you recover quickly and efficiently.
+                    </p>
                 </div>
             </div>
 
@@ -151,11 +151,13 @@
                 <a href="#" title="DynamicClaims" class="block relative">
                     <img src="img/fire2.JPG" alt="Fire Damage" class="w-full h-48 object-cover" loading="lazy">
                     <div class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 backdrop-blur-sm rounded">
-                        <h2 class="text-white text-2xl font-bold">Fire Damage</h2>
+                        <h2 class="text-white text-2xl font-bold" data-translate="fireDamage">Fire Damage</h2>
                     </div>
                 </a>
                 <div class="p-4">
-                    <p class="text-gray-600">Our experts assist with fire damage claims to restore your property.</p>
+                    <p class="text-gray-600" data-translate="fireDescription">
+                        Our experts assist with fire damage claims to restore your property.
+                    </p>
                 </div>
             </div>
 
@@ -164,11 +166,13 @@
                 <a href="#" title="DynamicClaims" class="block relative">
                     <img src="img/service-mold.jpg" alt="Mold Damage" class="w-full h-48 object-cover" loading="lazy">
                     <div class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 backdrop-blur-sm rounded">
-                        <h2 class="text-white text-2xl font-bold">Mold Remediation</h2>
+                        <h2 class="text-white text-2xl font-bold" data-translate="moldRemediation">Mold Remediation</h2>
                     </div>
                 </a>
                 <div class="p-4">
-                    <p class="text-gray-600">We specialize in mold damage claims to ensure a safe environment.</p>
+                    <p class="text-gray-600" data-translate="moldDescription">
+                        We specialize in mold damage claims to ensure a safe environment.
+                    </p>
                 </div>
             </div>
 
@@ -177,11 +181,13 @@
                 <a href="#" title="DynamicClaims" class="block relative">
                     <img src="img/hurricane1.png" alt="Wind Damage" class="w-full h-48 object-cover" loading="lazy">
                     <div class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 backdrop-blur-sm rounded">
-                        <h2 class="text-white text-2xl font-bold">Hurricane Damage</h2>
+                        <h2 class="text-white text-2xl font-bold" data-translate="hurricaneDamage">Hurricane Damage</h2>
                     </div>
                 </a>
                 <div class="p-4">
-                    <p class="text-gray-600">We help you recover from hurricane damage with expert claim handling.</p>
+                    <p class="text-gray-600" data-translate="hurricaneDescription">
+                        We help you recover from hurricane damage with expert claim handling.
+                    </p>
                 </div>
             </div>
 
@@ -190,11 +196,13 @@
                 <a href="#" title="DynamicClaims" class="block relative">
                     <img src="img/kitchen .JPG" alt="Water Damage" class="w-full h-48 object-cover" loading="lazy">
                     <div class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 backdrop-blur-sm rounded">
-                        <h2 class="text-white text-2xl font-bold">Water Damage</h2>
+                        <h2 class="text-white text-2xl font-bold" data-translate="waterDamage">Water Damage</h2>
                     </div>
                 </a>
                 <div class="p-4">
-                    <p class="text-gray-600">Our team handles water damage claims to restore your property.</p>
+                    <p class="text-gray-600" data-translate="waterDescription">
+                        Our team handles water damage claims to restore your property.
+                    </p>
                 </div>
             </div>
 
@@ -203,16 +211,19 @@
                 <a href="#" title="DynamicClaims" class="block relative">
                     <img src="img/service-vandalism.jpg" alt="Vandalism" class="w-full h-48 object-cover" loading="lazy">
                     <div class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 backdrop-blur-sm rounded">
-                        <h2 class="text-white text-2xl font-bold">Vandalism Claims</h2>
+                        <h2 class="text-white text-2xl font-bold" data-translate="vandalismClaims">Vandalism Claims</h2>
                     </div>
                 </a>
                 <div class="p-4">
-                    <p class="text-gray-600">We assist with vandalism claims to help you recover from property damage.</p>
+                    <p class="text-gray-600" data-translate="vandalismDescription">
+                        We assist with vandalism claims to help you recover from property damage.
+                    </p>
                 </div>
             </div>
         </div>
         <div class="text-center mt-8">
-            <a href="#" title="DynamicClaims" class="bg-purple-900 text-white px-6 py-3 rounded-lg hover:bg-purple-800 transition duration-300">
+            <a href="#" title="DynamicClaims" data-translate="exploreMoreServices"
+                class="bg-purple-900 text-white px-6 py-3 rounded-lg hover:bg-purple-800 transition duration-300">
                 Explore More Services
             </a>
         </div>
@@ -220,362 +231,364 @@
 </div>
 <!-- Services List End -->
 
-        <!-- About Start -->
-        <div class="py-12 bg-white">
-            <div class="container mx-auto px-4">
-                <div class="flex flex-col lg:flex-row items-center gap-8">
-                    <div class="w-full lg:w-1/2 p-8">
-                        <h1 class="text-3xl font-bold text-gray-800 mb-6">#1 Trusted Partner for Insurance Claims</h1>
-                        <p class="text-black mb-6">
-                            Dynamic Claims Advisors Inc. is dedicated to providing expert advice and personalized
-                            support in navigating insurance claims. We help individuals and businesses achieve fair
-                            outcomes efficiently.
-                        </p>
-                        <ul class="space-y-3 mb-6">
-                            <li class="flex items-center">
-                                <i class="fas fa-check text-pink-600 mr-3"></i>
-                                <span class="text-gray-700">Expert Guidance for All Claim Types</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fas fa-check text-pink-600 mr-3"></i>
-                                <span class="text-gray-700">Transparent and Professional Service</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fas fa-check text-pink-600 mr-3"></i>
-                                <span class="text-gray-700">Committed to Client Success</span>
-                            </li>
-                        </ul>
-                        <a href="#" title="DynamicClaims"
-                            class="bg-custom-purple text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-800 transition duration-300 btn-custom">
-                            Learn More About Us
-                        </a>
-                    </div>
-                    <div class="w-full lg:w-1/2 relative overflow-hidden p-8 custom-aout-img">
-                        <img src="img/insurance.jpg" alt="About Us" class="w-full rounded-lg shadow-lg" loading="lazy">
-                    </div>
-                </div>
+<!-- About Start -->
+<div class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col lg:flex-row items-center gap-8">
+            <div class="w-full lg:w-1/2 p-8">
+                <h1 class="text-3xl font-bold text-gray-800 mb-6" data-translate="aboutTitle">
+                    #1 Trusted Partner for Insurance Claims
+                </h1>
+                <p class="text-black mb-6" data-translate="aboutDescription">
+                    Dynamic Claims Advisors Inc. is dedicated to providing expert advice and personalized
+                    support in navigating insurance claims. We help individuals and businesses achieve fair
+                    outcomes efficiently.
+                </p>
+                <ul class="space-y-3 mb-6">
+                    <li class="flex items-center">
+                        <i class="fas fa-check text-pink-600 mr-3"></i>
+                        <span class="text-gray-700" data-translate="aboutList1">Expert Guidance for All Claim Types</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-check text-pink-600 mr-3"></i>
+                        <span class="text-gray-700" data-translate="aboutList2">Transparent and Professional Service</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-check text-pink-600 mr-3"></i>
+                        <span class="text-gray-700" data-translate="aboutList3">Committed to Client Success</span>
+                    </li>
+                </ul>
+                <a href="#" title="DynamicClaims" data-translate="aboutButton"
+                    class="bg-custom-purple text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-800 transition duration-300 btn-custom">
+                    Learn More About Us
+                </a>
+            </div>
+            <div class="w-full lg:w-1/2 relative overflow-hidden p-8 custom-aout-img">
+                <img src="img/insurance.jpg" alt="About Us" class="w-full rounded-lg shadow-lg" loading="lazy">
             </div>
         </div>
-        <!-- About End -->
+    </div>
+</div>
+<!-- About End -->
 
 
-        <!-- Contact Start -->
-        <div class="bg-purple-300 py-12">
-            <div class="container mx-auto px-4">
-                <div class="text-center max-w-2xl mx-auto mb-8 px-8">
-                    <h1 class="text-3xl font-bold text-gray-800 mb-4">Contact Us</h1>
-                    <p class="text-black">
-                        We are here to help. Get in touch with us for inquiries, support, or any other assistance you
-                        may need.
-                    </p>
+<!-- Contact Start -->
+<div class="bg-purple-300 py-12">
+    <div class="container mx-auto px-4">
+        <div class="text-center max-w-2xl mx-auto mb-8 px-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-4" data-translate="contactTitle">Contact Us</h1>
+            <p class="text-black" data-translate="contactDescription">
+                We are here to help. Get in touch with us for inquiries, support, or any other assistance you
+                may need.
+            </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div>
+                <div class="grid grid-cols-1 lg:grid-cols-1 gap-6 mb-8">
+                    <div class="bg-white p-4 rounded-lg shadow-md border">
+                        <div class="flex items-center">
+                            <div class="bg-pink-100 p-3 rounded-full">
+                                <i class="fas fa-map-marker-alt text-pink-600"></i>
+                            </div>
+                            <p class="ml-4 text-gray-700">205 S Dixie Drive #0160 Haines City, FL</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-md border">
+                        <div class="flex items-center">
+                            <div class="bg-pink-100 p-3 rounded-full">
+                                <i class="fas fa-envelope-open text-pink-600"></i>
+                            </div>
+                            <p class="ml-4 text-gray-700">dynamicclaimsadvisors@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-md border">
+                        <div class="flex items-center">
+                            <div class="bg-pink-100 p-3 rounded-full">
+                                <i class="fas fa-phone-alt text-pink-600"></i>
+                            </div>
+                            <p class="ml-4 text-gray-700">+1 407-409-7409</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                    <div>
-                        <div class="grid grid-cols-1 lg:grid-cols-1 gap-6 mb-8">
-                            <div class="bg-white p-4 rounded-lg shadow-md border">
-                                <div class="flex items-center">
-                                    <div class="bg-pink-100 p-3 rounded-full">
-                                        <i class="fas fa-map-marker-alt text-pink-600"></i>
-                                    </div>
-                                    <p class="ml-4 text-gray-700">205 S Dixie Drive #0160 Haines City, FL</p>
-                                </div>
-                            </div>
-                            <div class="bg-white p-4 rounded-lg shadow-md border">
-                                <div class="flex items-center">
-                                    <div class="bg-pink-100 p-3 rounded-full">
-                                        <i class="fas fa-envelope-open text-pink-600"></i>
-                                    </div>
-                                    <p class="ml-4 text-gray-700">dynamicclaimsadvisors@gmail.com</p>
-                                </div>
-                            </div>
-                            <div class="bg-white p-4 rounded-lg shadow-md border">
-                                <div class="flex items-center">
-                                    <div class="bg-pink-100 p-3 rounded-full">
-                                        <i class="fas fa-phone-alt text-pink-600"></i>
-                                    </div>
-                                    <p class="ml-4 text-gray-700">+1 407-409-7409</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-full h-96 rounded-lg overflow-hidden shadow-lg">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7248291.838694887!2d-89.10534612385604!3d27.493999324031837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c1766591562abf%3A0xf72e13d35bc74ed0!2sFlorida%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1737487404572!5m2!1ses!2sco"
-                                class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy"
-                                title="Google Maps" referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <p class="text-black mb-6">
-                            Fill out the form below, and our team will get back to you as soon as possible.
-                        </p>
-                        <form>
-                            <div class="grid grid-cols-1 gap-4">
-                                <div>
-                                    <label for="name" class="block text-gray-700">Your Name</label>
-                                    <input type="text" id="name"
-                                        class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600"
-                                        placeholder="Your Name" />
-                                </div>
-                                <div>
-                                    <label for="email" class="block text-gray-700">Your Email</label>
-                                    <input type="email" id="email"
-                                        class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600"
-                                        placeholder="Your Email" />
-                                </div>
-                                <div>
-                                    <label for="subject" class="block text-gray-700">Subject</label>
-                                    <input type="text" id="subject"
-                                        class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600"
-                                        placeholder="Subject" />
-                                </div>
-                                <div>
-                                    <label for="message" class="block text-gray-700">Message</label>
-                                    <textarea id="message"
-                                        class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600"
-                                        rows="4" placeholder="Leave a message here"></textarea>
-                                </div>
-                                <div>
-                                    <button type="submit"
-                                        class="w-full text-white py-3 rounded-lg transition duration-300 btn-custom max-w-xs">
-                                        Send Message
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                <div class="w-full h-96 rounded-lg overflow-hidden shadow-lg">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7248291.838694887!2d-89.10534612385604!3d27.493999324031837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c1766591562abf%3A0xf72e13d35bc74ed0!2sFlorida%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1737487404572!5m2!1ses!2sco"
+                        class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy"
+                        title="Google Maps" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
-        </div>
-        <!-- Contact End -->
-
-
-        <!-- Call to Action Start -->
-        <div class="py-12 bg-purple-300">
-            <div class="container mx-auto px-4">
-                <div class="bg-white rounded-2xl shadow-lg p-6 border border-dashed border-pink-200">
-                    <div class="flex flex-col lg:flex-row items-center gap-8">
-                        <div class="w-full lg:w-1/2">
-                            <img src="img/expert1.jpg" alt="Call to Action" class="w-full rounded-2xl" loading="lazy">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <p class="text-black mb-6" data-translate="contactFormDescription">
+                    Fill out the form below, and our team will get back to you as soon as possible.
+                </p>
+                <form>
+                    <div class="grid grid-cols-1 gap-4">
+                        <div>
+                            <label for="name" class="block text-gray-700" data-translate="contactFormName">Your Name</label>
+                            <input type="text" id="name"
+                                class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600"
+                                placeholder="Your Name" />
                         </div>
-                        <div class="w-full lg:w-1/2">
-                            <h1 class="text-3xl font-bold text-gray-800 mb-4">Connect With Our Expert Team</h1>
-                            <p class="text-black mb-6">
-                                We are here to assist you. Contact us to learn more about our services or to schedule a
-                                consultation.
-                            </p>
-                            <div class="flex flex-col sm:flex-row gap-4">
-                                <a href="tel:+1234567890"
-                                    class="text-white px-6 py-3 rounded-lg transition duration-300 flex items-center justify-center btn-custom">
-                                    <i class="fas fa-phone-alt mr-2"></i>
-                                    Make A Call
-                                </a>
-                                <a href="appointment.html"
-                                    class="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-500 transition duration-300 flex items-center justify-center">
-                                    <i class="fas fa-calendar-alt mr-2"></i>
-                                    Book Appointment
-                                </a>
-                            </div>
+                        <div>
+                            <label for="email" class="block text-gray-700" data-translate="contactFormEmail">Your Email</label>
+                            <input type="email" id="email"
+                                class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600"
+                                placeholder="Your Email" />
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Call to Action End -->
-
-        <!-- How Easy To Claim Start -->
-        <div class="py-12 bg-purple-300">
-            <div class="container mx-auto px-4">
-                <div class="flex flex-col lg:flex-row items-center gap-8">
-                    <div class="w-full lg:w-1/2 px-8">
-                        <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">Making Claims Has Never Been
-                            Easier</h1>
-                        <p class="text-black mb-6">
-                            Our streamlined process is designed so you don’t have to worry about the details. From start
-                            to finish, we guide you every step of the way.
-                        </p>
-                        <ul class="space-y-4 mb-12">
-                            <li class="flex items-center">
-                                <i class="fas fa-check-circle text-pink-600 mr-3"></i>
-                                <span class="text-gray-700"><strong>Free Evaluation:</strong> Begin with a free
-                                    inspection and consultation.</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fas fa-check-circle text-pink-600 mr-3"></i>
-                                <span class="text-gray-700"><strong>Documentation:</strong> We handle all the required
-                                    paperwork for you.</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fas fa-check-circle text-pink-600 mr-3"></i>
-                                <span class="text-gray-700"><strong>Negotiation:</strong> We work directly with your
-                                    insurance company to maximize your claim.</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fas fa-check-circle text-pink-600 mr-3"></i>
-                                <span class="text-gray-700"><strong>Fast Resolution:</strong> Receive your compensation
-                                    quickly and hassle-free.</span>
-                            </li>
-                        </ul>
-                        <a href="#" title="DynamicClaims"
-                            class="bg-custom-purple text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-800 transition duration-300 btn-custom">
-                            Get Started Now
-                        </a>
-                    </div>
-                    <div class="w-full lg:w-1/2 text-center">
-                        <img src="img/report.jpg" alt="Easy Claim Process" class="w-full rounded-2xl shadow-lg"
-                            loading="lazy">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- How Easy To Claim End -->
-
-        <!-- Testimonial Start -->
-        <div class="py-12 bg-white">
-            <div class="container mx-auto px-4">
-                <div class="text-center max-w-2xl mx-auto mb-8">
-                    <h1 class="text-3xl font-bold text-gray-800">What Our Clients Say</h1>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="bg-gray-50 p-6 rounded-2xl shadow-sm">
-                        <div class="bg-white p-6 rounded-lg border border-gray-200">
-                            <p class="text-black mb-6">
-                                "After our house was damaged by a hurricane, this team guided us every step of the way.
-                                Their professionalism and care made a stressful process so much easier. Highly
-                                recommend!"
-                            </p>
-                            <div class="flex items-center">
-                                <img src="img/testimonial-1.jpg" alt="John Smith" class="w-12 h-12 rounded-full"
-                                    loading="lazy">
-                                <div class="ml-4">
-                                    <h2 class="font-bold text-gray-800">John Smith</h2>
-                                    <small class="text-gray-500">Homeowner</small>
-                                </div>
-                            </div>
+                        <div>
+                            <label for="subject" class="block text-gray-700" data-translate="contactFormSubject">Subject</label>
+                            <input type="text" id="subject"
+                                class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600"
+                                placeholder="Subject" />
                         </div>
-                    </div>
-                    <div class="bg-gray-50 p-6 rounded-2xl shadow-sm">
-                        <div class="bg-white p-6 rounded-lg border border-gray-200">
-                            <p class="text-black mb-6">
-                                "Thanks to their expertise, we received the full compensation for the water damage in
-                                our basement. The team is efficient, friendly, and truly knows what they’re doing."
-                            </p>
-                            <div class="flex items-center">
-                                <img src="img/testimonial-2.jpg" alt="Sarah Johnson" class="w-12 h-12 rounded-full"
-                                    loading="lazy">
-                                <div class="ml-4">
-                                    <h2 class="font-bold text-gray-800">Sarah Johnson</h2>
-                                    <small class="text-gray-500">Business Owner</small>
-                                </div>
-                            </div>
+                        <div>
+                            <label for="message" class="block text-gray-700" data-translate="contactFormMessage">Message</label>
+                            <textarea id="message"
+                                class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600"
+                                rows="4" placeholder="Leave a message here"></textarea>
                         </div>
-                    </div>
-                    <div class="bg-gray-50 p-6 rounded-2xl shadow-sm">
-                        <div class="bg-white p-6 rounded-lg border border-gray-200">
-                            <p class="text-black mb-6">
-                                "I never thought filing an insurance claim could be this smooth. Their attention to
-                                detail and constant communication gave me peace of mind after the fire damage to my
-                                property."
-                            </p>
-                            <div class="flex items-center">
-                                <img src="img/testimonial-3.jpg" alt="Michael Brown" class="w-12 h-12 rounded-full"
-                                    loading="lazy">
-                                <div class="ml-4">
-                                    <h2 class="font-bold text-gray-800">Michael Brown</h2>
-                                    <small class="text-gray-500">Landlord</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
-
-        <!-- Footer Start -->
-        <footer class="bg-purple-950 text-white py-12">
-            <div class="container mx-auto px-4">
-                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
-                    <!-- Columna 1: Get In Touch -->
-                    <div>
-                        <h2 class="text-white text-lg font-bold mb-4">Get In Touch</h2>
-                        <p class="mb-2 flex items-center">
-                            <i class="fas fa-map-marker-alt text-pink-600 mr-3"></i>
-                            205 S Dixie Drive #0160 Haines City, FL
-                        </p>
-                        <p class="mb-2 flex items-center">
-                            <i class="fas fa-phone-alt text-pink-600 mr-3"></i>
-                            +1 407-409-7409
-                        </p>
-                        <p class="mb-2 flex items-center">
-                            <i class="fab fa-whatsapp text-pink-600 mr-3"></i>
-                            +1 407-460-5186
-                        </p>
-                        <p class="mb-2 flex items-center">
-                            <i class="fas fa-envelope text-pink-600 mr-3"></i>
-                            dynamicclaimsadvisors@gmail.com
-                        </p>
-                        <div class="flex space-x-2 mt-4">
-                            <a href="#" title="DynamicClaims"
-                                class="text-white hover:text-pink-600 px-4 py-3 inline-block min-w-[48px] min-h-[48px]">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" title="DynamicClaims"
-                                class="text-white hover:text-pink-600 px-4 py-3 inline-block min-w-[48px] min-h-[48px]">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" title="DynamicClaims"
-                                class="text-white hover:text-pink-600 px-4 py-3 inline-block min-w-[48px] min-h-[48px]">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="#" title="DynamicClaims"
-                                class="text-white hover:text-pink-600 px-4 py-3 inline-block min-w-[48px] min-h-[48px]">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Columna 2: Quick Links -->
-                    <div>
-                        <h2 class="text-white text-lg font-bold mb-4">Quick Links</h2>
-                        <a href="#" title="DynamicClaims" class="block text-white hover:text-pink-600 mb-2">About Us</a>
-                        <a href="#" title="DynamicClaims" class="block text-white hover:text-pink-600 mb-2">Contact
-                            Us</a>
-                        <a href="#" title="DynamicClaims" class="block text-white hover:text-pink-600 mb-2">Our
-                            Services</a>
-                        <a href="#" title="DynamicClaims" class="block text-white hover:text-pink-600 mb-2">Privacy
-                            Policy</a>
-                        <a href="#" title="DynamicClaims" class="block text-white hover:text-pink-600 mb-2">Terms &
-                            Conditions</a>
-                    </div>
-
-                    <!-- Columna 3: Newsletter -->
-                    <div class="col-span-1 md:col-span-2 lg:col-span-1">
-                        <h2 class="text-white text-lg font-bold mb-4">Newsletter</h2>
-                        <p class="mb-4">Stay updated with our latest news and offers.</p>
-                        <div class="relative">
-                            <input type="text" placeholder="Your email"
-                                class="w-full bg-gray-800 text-white py-3 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600" />
-                            <button type="button"
-                                class="absolute top-0 right-0 bg-purple-900 text-white py-3 px-6 rounded-lg hover:bg-pink-700 transition duration-300">
-                                Sign Up
+                        <div>
+                            <button type="submit" data-translate="contactFormButton"
+                                class="w-full text-white py-3 rounded-lg transition duration-300 btn-custom max-w-xs">
+                                Send Message
                             </button>
                         </div>
                     </div>
-                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
 
-                <!-- Copyright -->
-                <div class="border-t border-gray-800 mt-8 pt-8 text-center">
-                    <p class="text-white">
-                        &copy; <a href="#" class="text-blue-800 hover:text-pink-700">
-                            ROMA Marketing Agency
-                        </a>, All
-                        Rights Reserved.
+
+<!-- Call to Action Start -->
+<div class="py-12 bg-purple-300">
+    <div class="container mx-auto px-4">
+        <div class="bg-white rounded-2xl shadow-lg p-6 border border-dashed border-pink-200">
+            <div class="flex flex-col lg:flex-row items-center gap-8">
+                <div class="w-full lg:w-1/2">
+                    <img src="img/expert1.jpg" alt="Call to Action" class="w-full rounded-2xl" loading="lazy">
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <h1 class="text-3xl font-bold text-gray-800 mb-4" data-translate="ctaTitle">Connect With Our Expert Team</h1>
+                    <p class="text-black mb-6" data-translate="ctaDescription">
+                        We are here to assist you. Contact us to learn more about our services or to schedule a
+                        consultation.
                     </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="tel:+1234567890" data-translate="ctaCallButton"
+                            class="text-white px-6 py-3 rounded-lg transition duration-300 flex items-center justify-center btn-custom">
+                            <i class="fas fa-phone-alt mr-2"></i>
+                            Make A Call
+                        </a>
+                        <a href="appointment.html" data-translate="ctaAppointmentButton"
+                            class="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-500 transition duration-300 flex items-center justify-center">
+                            <i class="fas fa-calendar-alt mr-2"></i>
+                            Book Appointment
+                        </a>
+                    </div>
                 </div>
             </div>
-        </footer>
-        <!-- Footer End -->
+        </div>
+    </div>
+</div>
+<!-- Call to Action End -->
+
+<!-- How Easy To Claim Start -->
+<div class="py-12 bg-purple-300">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col lg:flex-row items-center gap-8">
+            <div class="w-full lg:w-1/2 px-8">
+                <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center" data-translate="easyClaimTitle">
+                    Making Claims Has Never Been Easier
+                </h1>
+                <p class="text-black mb-6" data-translate="easyClaimDescription">
+                    Our streamlined process is designed so you don’t have to worry about the details. From start
+                    to finish, we guide you every step of the way.
+                </p>
+                <ul class="space-y-4 mb-12">
+                    <li class="flex items-center">
+                        <i class="fas fa-check-circle text-pink-600 mr-3"></i>
+                        <span class="text-gray-700" data-translate="easyClaimList1">
+                            <strong>Free Evaluation:</strong> Begin with a free inspection and consultation.
+                        </span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-check-circle text-pink-600 mr-3"></i>
+                        <span class="text-gray-700" data-translate="easyClaimList2">
+                            <strong>Documentation:</strong> We handle all the required paperwork for you.
+                        </span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-check-circle text-pink-600 mr-3"></i>
+                        <span class="text-gray-700" data-translate="easyClaimList3">
+                            <strong>Negotiation:</strong> We work directly with your insurance company to maximize your claim.
+                        </span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-check-circle text-pink-600 mr-3"></i>
+                        <span class="text-gray-700" data-translate="easyClaimList4">
+                            <strong>Fast Resolution:</strong> Receive your compensation quickly and hassle-free.
+                        </span>
+                    </li>
+                </ul>
+                <a href="#" title="DynamicClaims" data-translate="easyClaimButton"
+                    class="bg-custom-purple text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-800 transition duration-300 btn-custom">
+                    Get Started Now
+                </a>
+            </div>
+            <div class="w-full lg:w-1/2 text-center">
+                <img src="img/report.jpg" alt="Easy Claim Process" class="w-full rounded-2xl shadow-lg" loading="lazy">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- How Easy To Claim End -->
+
+<!-- Testimonial Start -->
+<div class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center max-w-2xl mx-auto mb-8">
+            <h1 class="text-3xl font-bold text-gray-800" data-translate="testimonialTitle">What Our Clients Say</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Testimonial 1 -->
+            <div class="bg-gray-50 p-6 rounded-2xl shadow-sm">
+                <div class="bg-white p-6 rounded-lg border border-gray-200">
+                    <p class="text-black mb-6" data-translate="testimonial1">
+                        "After our house was damaged by a hurricane, this team guided us every step of the way.
+                        Their professionalism and care made a stressful process so much easier. Highly recommend!"
+                    </p>
+                    <div class="flex items-center">
+                        <img src="img/testimonial-1.jpg" alt="John Smith" class="w-12 h-12 rounded-full" loading="lazy">
+                        <div class="ml-4">
+                            <h2 class="font-bold text-gray-800">John Smith</h2>
+                            <small class="text-gray-500">Homeowner</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="bg-gray-50 p-6 rounded-2xl shadow-sm">
+                <div class="bg-white p-6 rounded-lg border border-gray-200">
+                    <p class="text-black mb-6" data-translate="testimonial2">
+                        "Thanks to their expertise, we received the full compensation for the water damage in
+                        our basement. The team is efficient, friendly, and truly knows what they’re doing."
+                    </p>
+                    <div class="flex items-center">
+                        <img src="img/testimonial-2.jpg" alt="Sarah Johnson" class="w-12 h-12 rounded-full" loading="lazy">
+                        <div class="ml-4">
+                            <h2 class="font-bold text-gray-800">Sarah Johnson</h2>
+                            <small class="text-gray-500">Business Owner</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="bg-gray-50 p-6 rounded-2xl shadow-sm">
+                <div class="bg-white p-6 rounded-lg border border-gray-200">
+                    <p class="text-black mb-6" data-translate="testimonial3">
+                        "I never thought filing an insurance claim could be this smooth. Their attention to
+                        detail and constant communication gave me peace of mind after the fire damage to my
+                        property."
+                    </p>
+                    <div class="flex items-center">
+                        <img src="img/testimonial-3.jpg" alt="Michael Brown" class="w-12 h-12 rounded-full" loading="lazy">
+                        <div class="ml-4">
+                            <h2 class="font-bold text-gray-800">Michael Brown</h2>
+                            <small class="text-gray-500">Landlord</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+<!-- Footer Start -->
+<footer class="bg-purple-950 text-white py-12">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Columna 1: Get In Touch -->
+            <div>
+                <h2 class="text-white text-lg font-bold mb-4" data-translate="footerGetInTouch">Get In Touch</h2>
+                <p class="mb-2 flex items-center">
+                    <i class="fas fa-map-marker-alt text-pink-600 mr-3"></i>
+                    205 S Dixie Drive #0160 Haines City, FL
+                </p>
+                <p class="mb-2 flex items-center">
+                    <i class="fas fa-phone-alt text-pink-600 mr-3"></i>
+                    +1 407-409-7409
+                </p>
+                <p class="mb-2 flex items-center">
+                    <i class="fab fa-whatsapp text-pink-600 mr-3"></i>
+                    +1 407-460-5186
+                </p>
+                <p class="mb-2 flex items-center">
+                    <i class="fas fa-envelope text-pink-600 mr-3"></i>
+                    dynamicclaimsadvisors@gmail.com
+                </p>
+                <div class="flex space-x-2 mt-4">
+                    <a href="#" title="DynamicClaims"
+                        class="text-white hover:text-pink-600 px-4 py-3 inline-block min-w-[48px] min-h-[48px]">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" title="DynamicClaims"
+                        class="text-white hover:text-pink-600 px-4 py-3 inline-block min-w-[48px] min-h-[48px]">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" title="DynamicClaims"
+                        class="text-white hover:text-pink-600 px-4 py-3 inline-block min-w-[48px] min-h-[48px]">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" title="DynamicClaims"
+                        class="text-white hover:text-pink-600 px-4 py-3 inline-block min-w-[48px] min-h-[48px]">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Columna 2: Quick Links -->
+            <div>
+                <h2 class="text-white text-lg font-bold mb-4" data-translate="footerQuickLinks">Quick Links</h2>
+                <a href="#" title="DynamicClaims" class="block text-white hover:text-pink-600 mb-2" data-translate="footerAboutUs">About Us</a>
+                <a href="#" title="DynamicClaims" class="block text-white hover:text-pink-600 mb-2" data-translate="footerContactUs">Contact Us</a>
+                <a href="#" title="DynamicClaims" class="block text-white hover:text-pink-600 mb-2" data-translate="footerOurServices">Our Services</a>
+                <a href="#" title="DynamicClaims" class="block text-white hover:text-pink-600 mb-2" data-translate="footerPrivacyPolicy">Privacy Policy</a>
+                <a href="#" title="DynamicClaims" class="block text-white hover:text-pink-600 mb-2" data-translate="footerTermsConditions">Terms & Conditions</a>
+            </div>
+
+            <!-- Columna 3: Newsletter -->
+            <div class="col-span-1 md:col-span-2 lg:col-span-1">
+                <h2 class="text-white text-lg font-bold mb-4" data-translate="footerNewsletter">Newsletter</h2>
+                <p class="mb-4" data-translate="footerNewsletterDescription">Stay updated with our latest news and offers.</p>
+                <div class="relative">
+                    <input type="text" placeholder="Your email" data-translate="footerNewsletterPlaceholder"
+                        class="w-full bg-gray-800 text-white py-3 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600" />
+                    <button type="button" data-translate="footerNewsletterButton"
+                        class="absolute top-0 right-0 bg-purple-900 text-white py-3 px-6 rounded-lg hover:bg-pink-700 transition duration-300">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+            <p class="text-white" data-translate="footerCopyright">
+                &copy; <a href="#" class="text-blue-800 hover:text-pink-700">
+                    ROMA Marketing Agency
+                </a>, All Rights Reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
 
         <!-- Back to Top -->
         <a href="#" title="Go to Top"
@@ -587,6 +600,7 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js" defer></script>
+        <script src="js/translate.js" defer></script>
 </body>
 
 </html>
