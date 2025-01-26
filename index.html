@@ -74,8 +74,8 @@
 
 <body>
 <!-- Navbar Start -->
-<div class="bg-transparent sticky top-0 z-50">
-    <nav class="bg-white shadow-md">
+<div class="navbar-wrapper bg-white bg-opacity-10 sticky top-0 z-50">
+    <nav class="navbar shadow-md">
         <div class="container mx-auto flex items-center justify-between px-4 py-2">
             <!-- Logo -->
             <a href="index.html" class="flex items-center">
@@ -86,7 +86,7 @@
             <!-- Link de Español -->
             <div class="flex flex-col items-start">
                 <!-- Primera línea: Home y En-Es -->
-                <div class="flex items-center">
+                <div class="bg-white bg-opacity-50 backdrop-blur flex items-center">
                     <a href="#" title="DynamicClaims" data-translate="home"
                         class="text-pink-900 font-semibold hover:text-pink-700 mx-2">Home</a>
                     <span class="text-pink-900">|</span>
@@ -118,7 +118,7 @@
         <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 animate-fade-in" data-translate="heroSubtitle">
             We Fight for You and Your Rights as a Policyholder
         </h2>
-        <p class="text-lg md:text-xl lg:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto animate-fade-in-up" data-translate="heroDescription">
+        <p class="text-lg md:text-xl lg:text-2xl text-gray-200 mb-12 max-w-2xl mx-auto animate-fade-in-up" data-translate="heroDescription">
             Professional public adjusters helping property owners maximize their insurance claims.
         </p>
         <a href="#" title="DynamicClaims" data-translate="freeInspection"
@@ -328,9 +328,9 @@
                 </div>
             </div>
             <div id="contact-us" class="bg-white p-6 rounded-lg shadow-lg">
-                <p class="text-black mb-6" data-translate="contactFormDescription">
-                    Fill out the form below, and our team will get back to you as soon as possible.
-                </p>
+                <h1 class="text-2xl font-semibold mb-6" data-translate="contactFormDescription">
+                    Request your Free Inspection
+                </h1>
                 <form id="contactForm" method="POST" action="https://script.google.com/macros/s/AKfycbytTxOwoyPy5mCsc_CDyDz-Rcnqtr8ZA41jq1uT2RzCPteOAtWRTS5JIe47uN5QltVL/exec">
                     <div class="grid grid-cols-1 gap-4">
                         <div>
