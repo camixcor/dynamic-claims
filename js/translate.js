@@ -5,7 +5,7 @@ const translations = {
         "heroTitle": "Get the Fair Compensation You Deserve",
         "noRecovery": "No Recovery, No Fee",
         "heroSubtitle": "We Fight for You and Your Rights as a Policyholder",
-        "heroDescription": "Professional public adjusters helping property owners maximize their insurance claims.",
+        "heroDescription": "Florida-based public adjusters dedicated to helping property owners maximize their insurance claims. Serving the Sunshine State with expertise and care.",
         "freeInspection": "Free Inspection",
         "servicesTitle": "Services Listing",
         "floodDamage": "Flood Damage",
@@ -80,7 +80,7 @@ const translations = {
         "heroTitle": "Obtén la Compensación Justa que Mereces",
         "noRecovery": "Sin Recuperación, Sin Honorarios",
         "heroSubtitle": "Luchamos por Ti y por Tus Derechos como Asegurado",
-        "heroDescription": "Ajustadores públicos profesionales ayudando a propietarios a maximizar sus reclamaciones de seguros.",
+        "heroDescription": "Ajustadores públicos con base en Florida, dedicados a ayudar a los propietarios a maximizar sus reclamaciones de seguros. Sirviendo al Estado del Sol con experiencia y dedicación.",
         "freeInspection": "Inspección Gratuita",
         "servicesTitle": "Listado de Servicios",
         "floodDamage": "Daños por Inundación",
@@ -150,6 +150,7 @@ const translations = {
         "vandalismLongDescription": "El vandalismo puede ser emocional y financieramente agotador. Nuestro equipo ayuda con las reclamaciones por vandalismo, ayudándote a recuperarte de los daños a la propiedad y restaurar tu tranquilidad. Estamos comprometidos a brindar un servicio compasivo y profesional."
     }
 };
+
 
 
 
