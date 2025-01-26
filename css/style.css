@@ -125,3 +125,31 @@
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
+/* Estilos para el mensaje de éxito */
+#formMessage.success {
+  background-color: #f0fdf4; /* Fondo verde claro */
+  border: 1px solid #bbf7d0; /* Borde verde */
+  color: #16a34a; /* Texto verde oscuro */
+}
+
+/* Estilos para el mensaje de error */
+#formMessage.error {
+  background-color: #fef2f2; /* Fondo rojo claro */
+  border: 1px solid #fecaca; /* Borde rojo */
+  color: #dc2626; /* Texto rojo oscuro */
+}
+
+/* Estilos para la animación de aparición */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#formMessage {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -5,7 +5,7 @@ const translations = {
         "heroTitle": "Get the Fair Compensation You Deserve",
         "noRecovery": "No Recovery, No Fee",
         "heroSubtitle": "We Fight for You and Your Rights as a Policyholder",
-        "heroDescription": "Professional public adjusters helping property owners maximize their insurance claims.",
+        "heroDescription": "Florida-based public adjusters dedicated to helping property owners maximize their insurance claims.",
         "freeInspection": "Free Inspection",
         "servicesTitle": "Services Listing",
         "floodDamage": "Flood Damage",
@@ -29,11 +29,16 @@ const translations = {
         "aboutButton": "Learn More About Us",
         "contactTitle": "Contact Us",
         "contactDescription": "We are here to help. Get in touch with us for inquiries, support, or any other assistance you may need.",
-        "contactFormDescription": "Fill out the form below, and our team will get back to you as soon as possible.",
+        "contactFormDescription": "Request your Free Inspection",
         "contactFormName": "Your Name",
         "contactFormEmail": "Your Email",
         "contactFormSubject": "Subject",
+        "contactFormPhone": "Phone Number",
         "contactFormMessage": "Message",
+        "contactFormNamePlaceholder": "Your Name",
+        "contactFormEmailPlaceholder": "Your Email",
+        "contactFormPhonePlaceholder": "Phone",
+        "contactFormMessagePlaceholder": "Leave a message here",
         "contactFormButton": "Send Message",
         "ctaTitle": "Connect With Our Expert Team",
         "ctaDescription": "We are here to assist you. Contact us to learn more about our services or to schedule a consultation.",
@@ -75,7 +80,7 @@ const translations = {
         "heroTitle": "Obtén la Compensación Justa que Mereces",
         "noRecovery": "Sin Recuperación, Sin Honorarios",
         "heroSubtitle": "Luchamos por Ti y por Tus Derechos como Asegurado",
-        "heroDescription": "Ajustadores públicos profesionales ayudando a propietarios a maximizar sus reclamaciones de seguros.",
+        "heroDescription": "Ajustadores públicos con base en Florida, dedicados a ayudar a los propietarios a maximizar sus reclamaciones de seguros.",
         "freeInspection": "Inspección Gratuita",
         "servicesTitle": "Listado de Servicios",
         "floodDamage": "Daños por Inundación",
@@ -99,11 +104,16 @@ const translations = {
         "aboutButton": "Conoce Más Sobre Nosotros",
         "contactTitle": "Contáctanos",
         "contactDescription": "Estamos aquí para ayudarte. Ponte en contacto con nosotros para consultas, soporte o cualquier otra asistencia que necesites.",
-        "contactFormDescription": "Completa el formulario a continuación, y nuestro equipo se pondrá en contacto contigo lo antes posible.",
+        "contactFormDescription": "Reserva tu inspección gratuita hoy",
         "contactFormName": "Tu Nombre",
         "contactFormEmail": "Tu Correo Electrónico",
         "contactFormSubject": "Asunto",
+        "contactFormPhone": "Numero de Teléfono",
         "contactFormMessage": "Mensaje",
+        "contactFormNamePlaceholder": "Tu Nombre",
+        "contactFormEmailPlaceholder": "Tu Correo Electrónico",
+        "contactFormPhonePlaceholder": "Teléfono",
+        "contactFormMessagePlaceholder": "Deja un mensaje aquí",
         "contactFormButton": "Enviar Mensaje",
         "ctaTitle": "Conéctate con Nuestro Equipo de Expertos",
         "ctaDescription": "Estamos aquí para ayudarte. Contáctanos para obtener más información sobre nuestros servicios o para programar una consulta.",
@@ -140,6 +150,7 @@ const translations = {
         "vandalismLongDescription": "El vandalismo puede ser emocional y financieramente agotador. Nuestro equipo ayuda con las reclamaciones por vandalismo, ayudándote a recuperarte de los daños a la propiedad y restaurar tu tranquilidad. Estamos comprometidos a brindar un servicio compasivo y profesional."
     }
 };
+
 
 
 
