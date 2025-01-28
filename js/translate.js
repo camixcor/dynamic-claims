@@ -1,6 +1,7 @@
 const translations = {
     "en": {
         "home": "Home",
+        "license": "License: W672811",
         "spanish": "Español",
         "heroTitle": "Get the Fair Compensation You Deserve",
         "noRecovery": "No Recovery, No Fee",
@@ -76,9 +77,10 @@ const translations = {
     },
     "es": {
         "home": "Inicio",
+        "license": "Licencia: W672811",
         "spanish": "Español",
         "heroTitle": "Obtén la Compensación Justa que Mereces",
-        "noRecovery": "Sin Recuperación, Sin Honorarios",
+        "noRecovery": "Si no Recuperas, No Pagas",
         "heroSubtitle": "Luchamos por Ti y por Tus Derechos como Asegurado",
         "heroDescription": "Ajustadores públicos con base en Florida, dedicados a ayudar a los propietarios a maximizar sus reclamaciones de seguros.",
         "freeInspection": "Inspección Gratuita",
