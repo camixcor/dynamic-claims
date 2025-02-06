@@ -78,9 +78,10 @@
     <nav class="navbar shadow-md">
         <div class="container mx-auto flex items-center justify-between px-4 py-2">
             <!-- Logo -->
-            <a href="index.html" class="flex items-center">
-                <img src="img/dynamic-claims-logo.png" alt="Dynamic Claims Advisors Logo" class="w-32 h-auto"
-                    loading="lazy" width="128" height="auto">
+            <a href="index.html" class="bg-white bg-opacity-20 rounded backdrop-blur flex items-center">
+                <img src="img/dynamic-claims-logo.png" alt="Dynamic Claims Advisors Logo" 
+                     class="w-32 h-auto md:w-40 lg:w-48 xl:w-56" 
+                     loading="lazy" width="128" height="auto">
             </a>
 
             <!-- Link de Español -->
@@ -88,13 +89,13 @@
                 <!-- Primera línea: Home y En-Es -->
                 <div class="bg-white bg-opacity-50 rounded backdrop-blur flex items-center">
                     <a href="#" title="DynamicClaims" data-translate="home"
-                        class="text-rose-900 font-semibold hover:text-rose-700 mx-2">Home</a>
-                    <span class="text-rose-900">|</span>
-                    <button id="language-toggle" class="text-rose-900 font-semibold hover:text-rose-700 mx-2">En/Es</button>
+                        class="text-rose-900 font-semibold hover:text-rose-700 mx-2 text-sm md:text-base lg:text-lg xl:text-xl">Home</a>
+                    <span class="text-rose-900 text-sm md:text-base lg:text-lg xl:text-xl">|</span>
+                    <button id="language-toggle" class="text-rose-900 font-semibold hover:text-rose-700 mx-2 text-sm md:text-base lg:text-lg xl:text-xl">En/Es</button>
                 </div>
             
                 <!-- Segunda línea: Licencia -->
-                <span data-translate="license" class="text-red-600 text-sm mt-1 ml-2">License: W672811</span>
+                <span data-translate="license" class="text-red-600 mt-1 ml-2 text-xs md:text-sm lg:text-base xl:text-lg">License: W672811</span>
             </div>
         </div>
     </nav>
@@ -103,7 +104,7 @@
 
 <!-- Hero Section -->
 <section class="hero min-h-screen flex items-center justify-center relative">
-    <img src="img/banner2.jpg" alt="Dynamic Claims Advisors" class="absolute inset-0 w-full h-full object-cover"
+    <img src="img/banner1.jpg" alt="Dynamic Claims Advisors" class="absolute inset-0 w-full h-full object-cover"
         loading="lazy">
     <div class="hero-overlay absolute inset-0"></div>
     <div class="container mx-auto text-center relative z-10 px-4">
@@ -122,12 +123,46 @@
             Professional public adjusters helping property owners maximize their insurance claims.
         </p>
         <a href="#" title="DynamicClaims" data-translate="freeInspection"
-            class="bg-btn text-white px-6 py-6 rounded-lg font-semibold hover:bg-purple-800 transition duration-300 btn-custom md:text-xl">
+            class="bg-btn text-white px-6 py-6 rounded-lg font-semibold hover:bg-rose-700 transition duration-300 btn-custom md:text-xl">
             Free Inspection
         </a>
     </div>
 </section>
 <!-- Hero End -->
+
+
+<!-- Owner  -->
+<div class="py-12 bg-alt-2">
+    <div class="container mx-auto px-4">
+        <div class="bg-white rounded-2xl shadow-lg p-6">
+            <div class="flex flex-col lg:flex-row items-center gap-8">
+                <div class="w-full lg:w-1/2">
+                    <img src="img/boss.png" alt="Call to Action" class="w-full rounded-2xl" loading="lazy">
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <h1 class="text-center text-3xl font-bold text-gray-800 mb-12">HERNAN MACHUCA</h1>
+                    <p class="text-black mb-12" data-translate="part1">
+                       
+                    </p>
+
+                    <!-- <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="tel:+14074097409" data-translate="ctaCallButton"
+                            class="text-white px-6 py-3 rounded-lg transition hover:bg-rose-700 duration-300 flex items-center justify-center bg-btn">
+                            <i class="fas fa-phone-alt mr-2"></i>
+                            Make A Call
+                        </a>
+                        <a href="#contact-us" data-translate="ctaAppointmentButton"
+                            class="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-500 transition duration-300 flex items-center justify-center">
+                            <i class="fas fa-calendar-alt mr-2"></i>
+                            Book Appointment
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Owner End -->
 
 <!-- Services List Start -->
 <div class=" bg-alt py-12">
@@ -135,11 +170,11 @@
         <div class="text-center mb-8">
             <h1 class="text-3xl font-bold text-white" data-translate="servicesTitle">Services Listing</h1>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <!-- Flood Damage -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden mx-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden ">
                 <div href="#" title="DynamicClaims" class="block relative">
-                    <img src="img/flood2.jpg" alt="Flood Damage" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="img/flood2.jpg" alt="Flood Damage" class="w-full h-56 object-cover" loading="lazy">
                     <div class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 backdrop-blur-sm rounded">
                         <h2 class="text-white text-2xl font-bold" data-translate="floodDamage">Flood Damage</h2>
                     </div>
@@ -152,9 +187,9 @@
             </div>
 
             <!-- Fire Damage -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden mx-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden ">
                 <div href="#" title="DynamicClaims" class="block relative">
-                    <img src="img/fire2.JPG" alt="Fire Damage" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="img/fire2.JPG" alt="Fire Damage" class="w-full h-56 object-cover" loading="lazy">
                     <div class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 backdrop-blur-sm rounded">
                         <h2 class="text-white text-2xl font-bold" data-translate="fireDamage">Fire Damage</h2>
                     </div>
@@ -167,9 +202,9 @@
             </div>
 
             <!-- Mold Remediation -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden mx-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden ">
                 <div href="#" title="DynamicClaims" class="block relative">
-                    <img src="img/service-mold.jpg" alt="Mold Damage" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="img/service-mold.jpg" alt="Mold Damage" class="w-full h-56 object-cover" loading="lazy">
                     <div class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 backdrop-blur-sm rounded">
                         <h2 class="text-white text-2xl font-bold" data-translate="moldRemediation">Mold Remediation</h2>
                     </div>
@@ -182,9 +217,9 @@
             </div>
 
             <!-- Hurricane Damage -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden mx-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden ">
                 <div href="#" title="DynamicClaims" class="block relative">
-                    <img src="img/hurricane1.png" alt="Wind Damage" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="img/hurricane1.png" alt="Wind Damage" class="w-full h-56 object-cover" loading="lazy">
                     <div class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 backdrop-blur-sm rounded">
                         <h2 class="text-white text-2xl font-bold" data-translate="hurricaneDamage">Hurricane Damage</h2>
                     </div>
@@ -197,9 +232,9 @@
             </div>
 
             <!-- Water Damage -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden mx-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden ">
                 <div href="#" title="DynamicClaims" class="block relative">
-                    <img src="img/kitchen.JPG" alt="Water Damage" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="img/kitchen.JPG" alt="Water Damage" class="w-full h-56 object-cover" loading="lazy">
                     <div class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 backdrop-blur-sm rounded">
                         <h2 class="text-white text-2xl font-bold" data-translate="waterDamage">Water Damage</h2>
                     </div>
@@ -212,9 +247,9 @@
             </div>
 
             <!-- Vandalism Claims -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden mx-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden ">
                 <div href="#" title="DynamicClaims" class="block relative">
-                    <img src="img/service-vandalism.jpg" alt="Vandalism" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="img/service-vandalism.jpg" alt="Vandalism" class="w-full h-56 object-cover" loading="lazy">
                     <div class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 backdrop-blur-sm rounded">
                         <h2 class="text-white text-2xl font-bold" data-translate="vandalismClaims">Vandalism Claims</h2>
                     </div>
@@ -228,7 +263,7 @@
         </div>
         <div class="text-center mt-8">
             <a href="/services.html" title="DynamicClaims" data-translate="exploreMoreServices"
-                class="bg-btn text-white px-6 py-3 rounded-lg hover:bg-purple-800 transition duration-300">
+                class="bg-btn text-white px-6 py-3 rounded-lg hover:bg-rose-700 transition duration-300">
                 More Information
             </a>
         </div>
@@ -264,7 +299,7 @@
                     </li>
                 </ul>
                 <a href="#" title="DynamicClaims" data-translate="aboutButton"
-                    class="bg-btn text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-800 transition duration-300 btn-custom">
+                    class="bg-btn text-white px-6 py-3 rounded-lg font-semibold hover:bg-rose-700 transition duration-300 btn-custom">
                     Learn More About Us
                 </a>
             </div>
@@ -359,7 +394,7 @@
                         </div>
                         <div>
                             <button type="submit" data-translate="contactFormButton"
-                                class="w-full text-white py-3 rounded-lg transition duration-300 bg-btn max-w-xs">
+                                class="w-full text-white py-3 rounded-lg hover:bg-rose-700 transition duration-300 bg-btn max-w-xs">
                                 Send Message
                             </button>
                         </div>
@@ -389,7 +424,7 @@
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <a href="tel:+14074097409" data-translate="ctaCallButton"
-                            class="text-white px-6 py-3 rounded-lg transition duration-300 flex items-center justify-center bg-btn">
+                            class="text-white px-6 py-3 rounded-lg transition hover:bg-rose-700 duration-300 flex items-center justify-center bg-btn">
                             <i class="fas fa-phone-alt mr-2"></i>
                             Make A Call
                         </a>
@@ -445,12 +480,12 @@
                     </li>
                 </ul>
                 <a href="#contact-us" title="DynamicClaims" data-translate="easyClaimButton"
-                    class="bg-btn text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-800 transition duration-300">
+                    class="bg-btn text-white px-6 py-3 rounded-lg font-semibold hover:bg-rose-700 transition duration-300">
                     Get Started Now
                 </a>
             </div>
             <div class="w-full lg:w-1/2 text-center">
-                <img src="img/report.jpg" alt="Easy Claim Process" class="w-full rounded-2xl shadow-lg" loading="lazy">
+                <img src="img/claimadjuster.png" alt="Easy Claim Process" class="w-full rounded-2xl shadow-lg" loading="lazy">
             </div>
         </div>
     </div>
@@ -599,13 +634,6 @@
     </div>
 </footer>
 <!-- Footer End -->
-
-        <!-- Back to Top -->
-        <a href="#" title="Go to Top"
-            class="fixed bottom-4 right-4 bg-rose-600 text-white p-3 rounded-full shadow-lg hover:bg-rose-700 transition duration-300">
-            <i class="fas fa-arrow-up"></i>
-        </a>
-
 
 
         <!-- Template Javascript -->
