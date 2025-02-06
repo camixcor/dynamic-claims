@@ -105,6 +105,17 @@
   transition: background-color 0.3s ease;
 }
 
+.bg-btn{
+
+
+  background-color: #e96839
+
+  ;
+  color: white;
+  transition: background-color 0.3s ease;
+
+}
+
 .btn-custom:hover {
   background-color: #a538c9; /* Darker shade for hover */
 }
@@ -159,7 +170,8 @@ html {
 }
 
 .bg-alt{
-  background-color: #d23153;
+  background-color:#3d1e3c;
+
 }
 
 .bg-alt-3{
