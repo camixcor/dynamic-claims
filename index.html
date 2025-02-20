@@ -638,10 +638,10 @@
                         data-translate="footerContactUs">Contact Us</a>
                     <a href="/services.html" title="DynamicClaims" class="block text-white hover:text-rose-600 mb-2"
                         data-translate="footerOurServices">Our Services</a>
-                    <a href="#" title="DynamicClaims" class="block text-white hover:text-rose-600 mb-2"
-                        data-translate="footerPrivacyPolicy">Privacy Policy</a>
-                    <a href="#" title="DynamicClaims" class="block text-white hover:text-rose-600 mb-2"
-                        data-translate="footerTermsConditions">Terms & Conditions</a>
+                        <a href="#" title="DynamicClaims" class="block text-white hover:text-rose-600 mb-2"
+                        data-translate="footerPrivacyPolicy" onclick="openModal('privacyPolicyModal'); return false;">Privacy Policy</a>
+                     <a href="#" title="DynamicClaims" class="block text-white hover:text-rose-600 mb-2"
+                        data-translate="footerTermsConditions" onclick="openModal('termsConditionsModal'); return false;">Terms & Conditions</a>
                 </div>
 
                 <!-- Columna 3: Newsletter -->
@@ -664,7 +664,7 @@
 
             <!-- Copyright -->
             <div class="border-t border-gray-800 mt-8 pt-8 text-center">
-                <p class="text-white" data-translate="footerCopyright">
+                <p class="text-white">
                     &copy; <a href="#" class="text-blue-800 hover:text-rose-700">
                         ROMA Marketing Agency
                     </a>, All Rights Reserved.
@@ -676,8 +676,33 @@
 
 
     <!-- Template Javascript -->
+<!-- Modal para Privacy Policy -->
+<div id="privacyPolicyModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+    <div class="bg-white p-6 rounded-lg w-11/12 md:w-1/2 lg:w-1/3">
+        <h2 class="text-lg font-bold mb-4">Privacy Policy</h2>
+        <p>At Dynamic Claims Advisors Inc., we are committed to protecting your privacy. Our Privacy Policy outlines how we collect, use, and safeguard your personal information. We ensure transparency and compliance with all applicable laws to maintain your trust and confidence in our services.</p>
+        <button onclick="closeModal('privacyPolicyModal')" class="mt-4 bg-rose-600 text-white px-4 py-2 rounded hover:bg-rose-700">Close</button>
+    </div>
+</div>
 
+<!-- Modal para Terms & Conditions -->
+<div id="termsConditionsModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+    <div class="bg-white p-6 rounded-lg w-11/12 md:w-1/2 lg:w-1/3">
+        <h2 class="text-lg font-bold mb-4">Terms & Conditions</h2>
+        <p>By using our services, you agree to our Terms of Service. These terms govern your interaction with Dynamic Claims Advisors Inc., including the use of our website and the services we provide. Please review them carefully to understand your rights and responsibilities.</p>
+        <button onclick="closeModal('termsConditionsModal')" class="mt-4 bg-rose-600 text-white px-4 py-2 rounded hover:bg-rose-700">Close</button>
+    </div>
+</div>
     <script>
+            // Función para abrir el modal
+    function openModal(modalId) {
+        document.getElementById(modalId).classList.remove('hidden');
+    }
+
+    // Función para cerrar el modal
+    function closeModal(modalId) {
+        document.getElementById(modalId).classList.add('hidden');
+    }
         document.getElementById("contactForm").addEventListener("submit", async function (e) {
             e.preventDefault(); // Evita que el formulario se envíe de forma tradicional
 
