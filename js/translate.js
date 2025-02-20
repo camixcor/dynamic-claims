@@ -39,7 +39,7 @@ const translations = {
         "contactFormNamePlaceholder": "Your Name",
         "contactFormEmailPlaceholder": "Your Email",
         "contactFormPhonePlaceholder": "Phone",
-        "contactFormMessagePlaceholder": "Leave Your message here",
+        "contactFormMessagePlaceholder": "Leave your message here",
         "contactFormButton": "Send Message",
         "ctaTitle": "Connect With Our Expert Team",
         "ctaDescription": "We are here to assist you. Contact us to learn more about our services or to schedule a consultation.",
