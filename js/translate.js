@@ -41,7 +41,7 @@ const translations = {
         "contactFormPhonePlaceholder": "Phone",
         "contactFormMessagePlaceholder": "Leave your message here",
         "contactFormButton": "Send Message",
-        "ctaTitle": "Connect with our oxpert team",
+        "ctaTitle": "Connect with our expert team",
         "ctaDescription": "We are here to assist you. Contact us to learn more about our services or to schedule a consultation.",
         "ctaCallButton": "Make A Call",
         "ctaAppointmentButton": "Book Appointment",
@@ -78,6 +78,8 @@ const translations = {
         "part2": "Licensed and certified as a PCA/Loss Consultant, Hernan combines his deep industry knowledge with a client-focused approach to ensure that every claim is handled efficiently and effectively. Whether you're dealing with property damage, business interruptions, or other insurance-related challenges, Hernan’s commitment to delivering results makes him the go-to expert in the field.",
         "part3": "Clients trust Hernan for his proven track record, attention to detail, and ability to navigate the intricacies of the claims process. His dedication to fairness and transparency has earned him the respect of both clients and industry peers alike. When you work with Hernan Machuca, you’re not just hiring a claims advisor – you’re gaining a partner who will fight for your best interests and ensure you receive the compensation you deserve.",
         "contactFormDamageType": "Type of Claim",
+        "privacyPolicy": "At Dynamic Claims Advisors Inc., we are committed to protecting your privacy. Our Privacy Policy outlines how we collect, use, and safeguard your personal information. We ensure transparency and compliance with all applicable laws to maintain your trust and confidence in our services.",
+        "termsConditions": "By using our services, you agree to our Terms of Service. These terms govern your interaction with Dynamic Claims Advisors Inc., including the use of our website and the services we provide. Please review them carefully to understand your rights and responsibilities.",
     },
     "es": {
         "home": "Inicio",
@@ -85,7 +87,7 @@ const translations = {
         "spanish": "Español",
         "heroTitle": "Obtén la compensación justa que mereces",
         "noRecovery": "Si no Recuperas, No Pagas",
-        "heroSubtitle": "Luchamos por ti y por tus derechos como asegurado",
+        "heroSubtitle": "Luchamos por tí y por tus derechos como asegurado",
         "heroDescription": "Ajustadores públicos con base en Florida, dedicados a ayudar a los propietarios a maximizar sus reclamaciones de seguros.",
         "freeInspection": "Inspección Gratuita",
         "servicesTitle": "Listado de Servicios",
@@ -158,6 +160,8 @@ const translations = {
         "part2": "Licenciado y certificado como PCA/Consultor de Pérdidas, Hernan combina su profundo conocimiento del sector con un enfoque centrado en el cliente para garantizar que cada reclamación se maneje de manera eficiente y efectiva. Ya sea que esté enfrentando daños a la propiedad, interrupciones comerciales u otros desafíos relacionados con seguros, el compromiso de Hernan con la obtención de resultados lo convierte en el experto de referencia en el campo.",
         "part3": "Los clientes confían en Hernan por su historial comprobado, atención al detalle y capacidad para navegar por las complejidades del proceso de reclamaciones. Su dedicación a la equidad y la transparencia le ha valido el respeto tanto de los clientes como de sus colegas en la industria. Cuando trabaja con Hernan Machuca, no solo está contratando a un asesor en reclamaciones, está ganando un aliado que luchará por sus mejores intereses y asegurará que reciba la compensación que merece.",
         "contactFormDamageType": "Tipo de Daño",
+        "privacyPolicy": "En Dynamic Claims Advisors Inc., estamos comprometidos a proteger tu privacidad. Nuestra Política de Privacidad describe cómo recopilamos, utilizamos y protegemos tu información personal. Garantizamos transparencia y cumplimiento con todas las leyes aplicables para mantener tu confianza y seguridad en nuestros servicios.",
+        "termsConditions": "Al utilizar nuestros servicios, aceptas nuestros Términos de Servicio. Estos términos rigen tu interacción con Dynamic Claims Advisors Inc., incluyendo el uso de nuestro sitio web y los servicios que ofrecemos. Por favor, revísalos detenidamente para comprender tus derechos y responsabilidades.",
 
     }
 };
