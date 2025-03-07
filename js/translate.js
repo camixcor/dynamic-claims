@@ -3,7 +3,7 @@ const translations = {
         "home": "Home",
         "license": "License: W672811",
         "spanish": "Español",
-        "heroTitle": "Get the fair yompensation you deserve",
+        "heroTitle": "Get the fair compensation you deserve",
         "noRecovery": "No Recovery, No Fee",
         "heroSubtitle": "We fight for you and your rights as a policyholder",
         "heroDescription": "Florida-based public adjusters dedicated to helping property owners maximize their insurance claims.",
